@@ -17,7 +17,7 @@ int main(int argc, char **argv)
     }
     fseek(file, 0, SEEK_END);
     int line = (int)ftell(file);
-   // printf ("%d\n", line);
+    printf ("%d\n", line);
     char *str = (char*)malloc(line + 1);
     while (number <= line)
     {
